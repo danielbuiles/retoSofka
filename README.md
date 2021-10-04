@@ -26,7 +26,7 @@ base datos:   https://drive.google.com/file/d/12RXPza3CMxb_ZgX73VaT8E-hs21g7qld/
 
 si ya tiene la base de datos reto ahora proceda a iniciar el apache
 
-cuando se abra el servidor local seleccione la carpeta reto, el programa ahora estara listo para usar ;D
+cuando se abra el servidor local seleccione la carpeta retoSofka, el programa ahora estara listo para usar ;D
 
 ## Construido con 🛠️
 
