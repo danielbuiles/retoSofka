@@ -22,7 +22,7 @@ ingrese al admin del mySQL
 
 en phpMyAdmin importe la base de datos en el formato sql.
 
-base datos:   https://drive.google.com/file/d/12RXPza3CMxb_ZgX73VaT8E-hs21g7qld/view?usp=sharing
+base datos:   https://drive.google.com/file/d/1JX5kv6XN7m9QsO6LksZHaIx0MjNWrXV1/view?usp=sharing
 
 ![Captura de pantalla (511)](https://user-images.githubusercontent.com/61318415/135781099-4324c170-1d21-41b6-a556-b02aa6a906b0.png)
 
