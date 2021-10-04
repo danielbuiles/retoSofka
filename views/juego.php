@@ -58,7 +58,7 @@ require('../database/database.php');
         </div>
         <div class="btnContainer">
             <button name="btnRespuesta">validar</button>
-            <button name="btnSalirJuego">salir</button>
+            <button name="btnSalirJuego">Retirada</button>
         </div>
     </form>
 </body>

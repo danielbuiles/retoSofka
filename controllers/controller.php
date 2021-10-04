@@ -56,11 +56,11 @@ if (isset($_POST['btnRespuesta'])) {
         }
 
         if($jugador->getNumRonda()==6){
-            guardarDatos();
+            guardarDatos("gana");
         }
 
     }else {
-        guardarDatos();
+        guardarDatos("pierde");
     }
 }
 
@@ -108,8 +108,8 @@ function juego($puntos,$ronda){
     header('location:../views/juego.php');
 }
 
-//se guardan todos los datos del jugador, y se sale a la vista principal
-function guardarDatos(){
+//se guardan todos los datos del jugador, se sale a una vista si pierda,gana o se retira
+function guardarDatos($pierde=""){
     session_start();
     $jugador=$_SESSION['jugador'];
     $baseDatos=$_SESSION['baseDatos'];
@@ -118,14 +118,24 @@ function guardarDatos(){
     $jugador=unserialize($jugador);
 
     $nick=$jugador->getNombre();
+    if ($pierde=="pierde") {
+    $premio=0;
+    }else{
     $premio=$jugador->getPuntos();
+    }
     $ronda=$jugador->getNumRonda();
 
     $consultaSQL="INSERT INTO datos(nick, puntos, ronda) VALUES ('$nick','$premio','$ronda')";
     $baseDatos->guardarDatos($consultaSQL);
 
     session_destroy();
-    header('location:../index.html');
+    if ($pierde=="pierde"){
+        header('location:../views/pantallaPerder.html');
+    }else if($pierde=="gana"){
+        header('location:../views/pantallaGanar.html');
+    }else{
+        header('location:../index.html');
+    }
 }
 
 ?>
