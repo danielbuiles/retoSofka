@@ -2,8 +2,6 @@
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local.
 
-Mira Deployment para conocer como desplegar el proyecto.
-
 # Pre-requisitos 📋
 
 debe de tener un servidor local, recomiendo para que funcione en su totalidad xammp,
