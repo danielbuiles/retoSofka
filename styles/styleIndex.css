@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background: #B2BCD2;
+}
+
+div h1{
+    font-size:6em;
+    top: 0;
+}
+
+.btnGrupo{
+    height:40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnGrupo button{
+    border-radius: 10px;
+    width: 130px;
+    text-decoration: none;
+    color: #000000;
+    background-color:antiquewhite;
+}
+
+.btnGrupo .btnLeft{
+    margin-right: 70%;
+    cursor:pointer;
+}
