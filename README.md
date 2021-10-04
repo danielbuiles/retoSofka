@@ -18,8 +18,6 @@ inicialice el apache y el mySQL en xammp,
 
 ingrese al admin del mySQL
 
-cree una base de datos llamada reto despues puesde importar,
-
 en phpMyAdmin importe la base de datos en el formato sql.
 
 base datos:   https://drive.google.com/file/d/1JX5kv6XN7m9QsO6LksZHaIx0MjNWrXV1/view?usp=sharing
