@@ -16,7 +16,9 @@ recuerde clonar el reto en el htdocs del xammp.
 
 # Instalación 🔧
 
-inicialise el phpMyAdmin en el xammp,
+inicialice el apache y el mySQL en xammp,
+
+ingrese al admin del mySQL
 
 en phpMyAdmin importe la base de datos en el formato sql.
 
@@ -24,7 +26,9 @@ base datos:   https://drive.google.com/file/d/12RXPza3CMxb_ZgX73VaT8E-hs21g7qld/
 
 ![Captura de pantalla (511)](https://user-images.githubusercontent.com/61318415/135781099-4324c170-1d21-41b6-a556-b02aa6a906b0.png)
 
-si ya tiene la base de datos reto ahora proceda a iniciar el apache
+verifique que si haya quedado una base de datos llamada reto,
+
+ingrese al admin del apache,
 
 cuando se abra el servidor local seleccione la carpeta retoSofka, el programa ahora estara listo para usar ;D
 
